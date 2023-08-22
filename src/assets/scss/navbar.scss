@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    &_menu{
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        margin-left: 252px;
+        margin-right: 270px;
+        &_list {           
+                
+            &_item {
+                font-family: Questrial;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 19px;
+                letter-spacing: 0em;
+                color: #121211;
+            }
+        }
+    }
+    &_button {
+        font-family: Bruno Ace;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+color: #FFFFFF;
+padding: 14px 45px;
+background: #030A8C;
+margin-left: 50px;
+transition: 0.3s;
+    }
+    &_button:hover {
+        background: #FFFFFF;
+        color: #030A8C;
+        
+    }
+}
