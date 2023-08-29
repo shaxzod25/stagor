@@ -1,0 +1,75 @@
+.opisaniya {
+    margin-top: 150px;
+    &_wrap {
+        display: flex;
+        gap: 30px ;
+        &_cristian {
+            position: relative;
+            max-width: 810px;
+            width: 100%;
+            padding: 60px 40px;
+            border: 1px solid red;
+            &_h {
+                font-family: 'QT';
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 31px;
+                letter-spacing: 0.05em;
+                text-align: left;
+                text-transform: uppercase;
+                color: #030A8C;
+            }
+            &_p {
+                font-family: "QT";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                letter-spacing: 0.05em;
+                text-align: left;
+                color:  #000000;
+                max-width: 350px;
+                width: 100%;
+                margin-top: 44px;
+            }
+            &_img {
+                position: absolute;
+                top: -23px;
+                left: -64px;
+            }
+        }
+        &_iphone {
+            position: relative;
+            max-width: 810px;
+            width: 100%;
+            padding: 60px 40px;
+            border: 1px solid red;
+            &_h {
+                font-family: 'QT';
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 31px;
+                letter-spacing: 0.05em;
+                text-align: left;
+                text-transform: uppercase;
+                color: #030A8C;
+            }
+            &_p {
+                font-family: "QT";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                letter-spacing: 0.05em;
+                text-align: left;
+                color:  #000000;
+                max-width: 350px;
+                width: 100%;
+                margin-top: 44px;
+            }
+            &_img {
+                position: absolute;
+                top: -23px;
+                left: -64px;
+            }
+        }
+    }
+}

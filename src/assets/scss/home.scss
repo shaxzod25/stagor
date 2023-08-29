@@ -1,0 +1,39 @@
+.banner {
+    margin: 100px 0;
+    &_wrap {
+        display: flex;
+        gap: 90px;
+        &_bts {
+            
+            margin: 0 auto;
+            
+            &_h1 {
+                font-family: 'KN';
+                font-size: 100px;
+                font-weight: 800;
+                line-height: 150px;
+                letter-spacing: 0em;
+                color: linear-gradient(90deg, #121211 23.37%, #3D3D3D 55.51%);
+                text-transform: uppercase;
+
+            }
+            &_bt {
+                font-family: 'AB';
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+color: #FFFFFF;
+padding: 14px 45px;
+background: #030A8C;
+transition: 0.3s;
+            }
+            &_bt:hover {
+                background: #FFFFFF;
+                color: #030A8C;
+                
+            }
+        }
+        
+    }
+}

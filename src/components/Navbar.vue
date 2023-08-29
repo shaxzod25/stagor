@@ -17,10 +17,13 @@
                 <router-link class="nav_menu_list_item" to="/Contacts">Contacts</router-link>
             </li>
         </ul>
-        <div class="nav_icon">
+        <div class="nav_btt">
+            <div class="nav_btt_icon">
             <img src="/src/assets/img/cart.png" alt="">
         </div>
-        <button class="nav_button">Login</button>
+        <button class="nav_btt_button">Login</button>
+        </div>
+        
     </div>
 </template>
 
