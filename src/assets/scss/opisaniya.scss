@@ -1,14 +1,16 @@
 .opisaniya {
-    margin-top: 150px;
+    margin: 150px 0;
     &_wrap {
         display: flex;
         gap: 30px ;
         &_cristian {
-            position: relative;
+            // position: relative;
             max-width: 810px;
             width: 100%;
             padding: 60px 40px;
             border: 1px solid red;
+            background: url(../img/parfum.png) #1212110D;
+
             &_h {
                 font-family: 'QT';
                 font-size: 30px;
@@ -31,18 +33,20 @@
                 width: 100%;
                 margin-top: 44px;
             }
-            &_img {
-                position: absolute;
-                top: -23px;
-                left: -64px;
-            }
+            // &_img {
+            //     position: absolute;
+            //     top: -23px;
+            //     left: -64px;
+            // }
         }
         &_iphone {
-            position: relative;
+            // position: relative;
             max-width: 810px;
             width: 100%;
             padding: 60px 40px;
             border: 1px solid red;
+            background: url(../img/RIphine.png) #1212110D;
+
             &_h {
                 font-family: 'QT';
                 font-size: 30px;
@@ -65,11 +69,11 @@
                 width: 100%;
                 margin-top: 44px;
             }
-            &_img {
-                position: absolute;
-                top: -23px;
-                left: -64px;
-            }
+            // &_img {
+            //     position: absolute;
+            //     top: -23px;
+            //     left: -64px;
+            // }
         }
     }
 }

@@ -30,6 +30,37 @@
                   <p class="product_wrap_info_pr">Super AMOLED 6.5″ display, 1080×2400, 20:9, 407 ppi.</p> 
             </div>
         </div>
+        <div class="recomend">
+            <h3 class="recomend_h">You may be interested in</h3>
+            <div class="recomend_cards">
+                <div class="recomend_cards_card">
+  <div class="recomend_cards_card_img">
+      <i class="fal fa-cart-plus"></i>
+  <img  src="/src/assets/img/glaxsy.png" alt="">
+  </div>
+  <h3 class="recomend_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
+
+  <p class="recomend_cards_card_p">$119.00</p>
+                </div>
+                <div class="recomend_cards_card">
+  <div class="recomend_cards_card_img">
+      <i class="fal fa-cart-plus"></i>
+  <img  src="/src/assets/img/glaxsy.png" alt="">
+  </div>
+  <h3 class="recomend_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
+  <p class="recomend_cards_card_p">$119.00</p>
+                </div>
+                <div class="recomend_cards_card">
+  <div class="recomend_cards_card_img">
+      <i class="fal fa-cart-plus"></i>
+  <img  src="/src/assets/img/glaxsy.png" alt="">
+  </div>
+  <h3 class="recomend_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
+  <p class="recomend_cards_card_p">$119.00</p>
+                </div>
+                
+            </div>
+        </div>
     </nav>
 </template>
 

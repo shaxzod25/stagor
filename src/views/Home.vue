@@ -29,139 +29,30 @@
             </div>
         </div>
     </div>
-    <div class="categoriya">
-        <h2 class="categoriya_h">Categories</h2>
-        <ul class="categoriya_menu">
-            <li class="categoriya_menu_list">
-                <a class="categoriya_menu_list_item">Technique</a>
-            </li>
-            <li class="categoriya_menu_list">
-                <a class="categoriya_menu_list_item">Food and drink</a>
-            </li>
-            <li class="categoriya_menu_list">
-                <a class="categoriya_menu_list_item">Perfumery</a>
-            </li>
-            <li class="categoriya_menu_list">
-                <a class="categoriya_menu_list_item">Cosmetics</a>
-            </li>
-            <li class="categoriya_menu_list">
-                <a class="categoriya_menu_list_item">Home Goods</a>
-            </li>
-        </ul>
-        <div class="categoriya_cards">
-            <div class="categoriya_cards_card">
-                <div class="categoriya_cards_card_img">
-                    <i class="fal fa-cart-plus"></i>
-                <img  src="/src/assets/img/glaxsy.png" alt="">
-                </div>
-                <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-                <p class="categoriya_cards_card_p">$119.00</p>
-            </div>
-            <div class="categoriya_cards_card">
-              <div class="categoriya_cards_card_img">
-                  <i class="fal fa-cart-plus"></i>
-              <img  src="/src/assets/img/glaxsy.png" alt="">
-              </div>
-              <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-              <p class="categoriya_cards_card_p">$119.00</p>
-          </div>
-          <div class="categoriya_cards_card">
-            <div class="categoriya_cards_card_img">
-                <i class="fal fa-cart-plus"></i>
-            <img  src="/src/assets/img/glaxsy.png" alt="">
-            </div>
-            <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-            <p class="categoriya_cards_card_p">$119.00</p>
-        </div>
-        <div class="categoriya_cards_card">
-          <div class="categoriya_cards_card_img">
-              <i class="fal fa-cart-plus"></i>
-          <img  src="/src/assets/img/glaxsy.png" alt="">
-          </div>
-          <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-          <p class="categoriya_cards_card_p">$119.00</p>
-      </div>
-      <div class="categoriya_cards_card">
-        <div class="categoriya_cards_card_img">
-            <i class="fal fa-cart-plus"></i>
-        <img  src="/src/assets/img/glaxsy.png" alt="">
-        </div>
-        <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-        <p class="categoriya_cards_card_p">$119.00</p>
-    </div>
-    <div class="categoriya_cards_card">
-      <div class="categoriya_cards_card_img">
-          <i class="fal fa-cart-plus"></i>
-      <img  src="/src/assets/img/glaxsy.png" alt="">
-      </div>
-      <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-      <p class="categoriya_cards_card_p">$119.00</p>
-  </div>
-  <div class="categoriya_cards_card">
-    <div class="categoriya_cards_card_img">
-        <i class="fal fa-cart-plus"></i>
-    <img  src="/src/assets/img/glaxsy.png" alt="">
-    </div>
-    <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-    <p class="categoriya_cards_card_p">$119.00</p>
-</div>
-<div class="categoriya_cards_card">
-  <div class="categoriya_cards_card_img">
-      <i class="fal fa-cart-plus"></i>
-  <img  src="/src/assets/img/glaxsy.png" alt="">
-  </div>
-  <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-  <p class="categoriya_cards_card_p">$119.00</p>
-</div>
-<div class="categoriya_cards_card">
-  <div class="categoriya_cards_card_img">
-      <i class="fal fa-cart-plus"></i>
-  <img  src="/src/assets/img/glaxsy.png" alt="">
-  </div>
-  <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-  <p class="categoriya_cards_card_p">$119.00</p>
-</div>
-<div class="categoriya_cards_card">
-  <div class="categoriya_cards_card_img">
-      <i class="fal fa-cart-plus"></i>
-  <img  src="/src/assets/img/glaxsy.png" alt="">
-  </div>
-  <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-  <p class="categoriya_cards_card_p">$119.00</p>
-</div>
-<div class="categoriya_cards_card">
-  <div class="categoriya_cards_card_img">
-      <i class="fal fa-cart-plus"></i>
-  <img  src="/src/assets/img/glaxsy.png" alt="">
-  </div>
-  <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-  <p class="categoriya_cards_card_p">$119.00</p>
-</div>
- <div class="categoriya_cards_card">
-  <div class="categoriya_cards_card_img">
-      <i class="fal fa-cart-plus"></i>
-  <img  src="/src/assets/img/glaxsy.png" alt="">
-  </div>
-  <h3 class="categoriya_cards_card_h">Samsung Galaxy A52 White 128Gb</h3>
-  <p class="categoriya_cards_card_p">$119.00</p>
-</div>
-        </div>
-    </div>
+    <Category />
     <div class="opisaniya">
       <div class="opisaniya_wrap">
         <div class="opisaniya_wrap_cristian">
           <h3 class="opisaniya_wrap_cristian_h">Christian Dior Sauvage Parfum</h3>
           <p class="opisaniya_wrap_cristian_p">In winter 2018, the world was presented a stunning new product from the famous perfume brand Christian Dior - Sauvage Eau De Parfum</p>
-          <img class="opisaniya_wrap_cristian_img" src="/src/assets/img/parfum.png" alt="">
+          
         </div>
         <div class="opisaniya_wrap_iphone">
           <h3 class="opisaniya_wrap_iphone_h">iPhone 14</h3>
           <p class="opisaniya_wrap_iphone_p">The updated iPhone 14 is Apple's new smartphone, unveiled at the September 7, 2022 presentation. It received a minimum of new changes, so it features an improved camera and new body colors. It also has satellite communication for emergencies.</p>
-          <img class="opisaniya_wrap_iphone_img" src="/src/assets/img/RIphine.png" alt="">
+          
         </div>
       </div>
     </div>
 </template>
+
+<script setup>
+import Category from '../views/page/Category.vue';
+import { useProductStore } from "../stores/products";
+const productStore = useProductStore();
+
+productStore.getProducts()
+</script>
 
 <script>
       // Import Swiper Vue.js components
@@ -170,7 +61,7 @@
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+//import 'swiper/css/navigation';
 
 
 
@@ -193,7 +84,7 @@ export default {
 <style >
 
 .swiper {
-  width: 800px;
+  width: 627px;
   height: 100%;
 }
 
