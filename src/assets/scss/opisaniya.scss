@@ -3,13 +3,20 @@
     &_wrap {
         display: flex;
         gap: 30px ;
+        @media screen and (max-width: 1200px) {
+            display: grid;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+          }
+        
         &_cristian {
             // position: relative;
             max-width: 810px;
             width: 100%;
             padding: 60px 40px;
             border: 1px solid red;
-            background: url(../img/parfum.png) #1212110D;
+            background: url(../img/parfum.png) no-repeat center right/cover #1212110D;
 
             &_h {
                 font-family: 'QT';
@@ -45,7 +52,7 @@
             width: 100%;
             padding: 60px 40px;
             border: 1px solid red;
-            background: url(../img/RIphine.png) #1212110D;
+            background: url(../img/RIphine.png) no-repeat center right/cover #1212110D;
 
             &_h {
                 font-family: 'QT';

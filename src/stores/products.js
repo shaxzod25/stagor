@@ -1,6 +1,4 @@
-import {
-    defineStore
-  } from "pinia";
+import { defineStore } from "pinia";
   import axios from "axios";
   
   export const useProductStore = defineStore("productStore", {
@@ -26,20 +24,20 @@ import {
       getProduct() {
         return this.products.find((product) => product.id == this.id);
       },
-      // Extra Products
+      
       getExtraProducts() {
         let currentProduct = this.products.find(
           (product) => product.id == this.id
         );
-        // Extra products
-        let extraProducts = this.products.filter(
+        
+        let interesProducts = this.products.filter(
           (product) =>
           product.category == currentProduct.category &&
           product.id != currentProduct.id
         );
-        return extraProducts;
+        return interesProducts;
       },
-      // Liked Products
+      
       getLikedProducts() {
         let likedProducts = this.products.filter((product) => product.liked == true);
         return likedProducts;

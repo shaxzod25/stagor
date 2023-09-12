@@ -10,8 +10,8 @@
             <a href="#" class="footer_wrap_one_p2">Product card</a>
         </div> 
         <div class="footer_wrap_second">
-            <p class="footer_wrap_second_p">Payment and delivery</p>
-            <p class="footer_wrap_second_p2">Like</p>
+            <a class="footer_wrap_second_p">Payment and delivery</a>
+            <router-link to="/Likespr" class="footer_wrap_second_p2">Like</router-link>
         </div>
         <div class="footer_wrap_three">
             <a class="footer_wrap_three_a">Contacts</a>

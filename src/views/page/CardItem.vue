@@ -1,14 +1,24 @@
 <template>
-    <div class="main__product">
+    
+    <div class="categoriya_cards_card">
+      <div class="icon-img">
+          <img src="/src/assets/img/like.svg" alt="">
+         </div> 
       <RouterLink
         :to="`/productCard/${props.item.id}`"
         @click="openProduct(props.item.id)"
       >
+      <div class="categoriya_cards_card_img">
         <img :src="props.item.thumbnail" alt="" />
+      </div>
+         
       </RouterLink>
-
-      <p class="main__product-text">{{ props.item.brand }}</p>
-      <span>{{ props.item.price }}.00$</span>
+          <p class="categoriya_cards_card_h">{{ props.item.brand }}</p>
+           <span >{{ props.item.price }}.00$</span>
+          
+           
+       
+     
     </div>
 </template>
 

@@ -1,11 +1,11 @@
 <template>
-  <div class="categories" id="categories">
+  <div class="categoriya" id="categoriya">
     <main class="main" v-if="paginatedProducts.length != 0">
-      <h2 class="main__categories-title">Categories</h2>
+      <h2 class="categoriya_h">Categories</h2>
       <div class="uls">
-        <ul class="main__categories-ul" ref="categories container">
+        <ul class="categoriya_menu" ref="categoriya container">
           <li
-            class="main__categories-li"
+            class="categoriya_menu_list"
             v-for="(item, i) in categories"
             :key="i"
             @click="(close = false), filterGoods(i), setActiveLink(i)"
@@ -16,17 +16,17 @@
         </ul>
       </div>
 
-      <div class="main__products container">
-        <CategoryItem
+      <div class="categoriya_cards container">
+        <CardItem
           v-for="(item, index) in sortedItems"
           :key="index"
           :item="item"
         />
       </div>
 
-      <div class="main__products container" v-show="close">
-        <div class="main__product" v-for="product in paginatedProducts">
-          <div class="main__product-img">
+      <div class="categoriya_cards container" v-show="close">
+        <div class="categoriya_cards_card" v-for="product in paginatedProducts">
+          <div class="categoriya_cards_card_img">
             <RouterLink
             :to="`/productCard/${product.id}`"
             @click="openProduct(product.id)"
@@ -36,7 +36,7 @@
           </div>
           
 
-          <p class="main__product-text">{{ product.brand }}</p>
+          <p class="categoriya_cards_card_p">{{ product.brand }}</p>
           <span>{{ product.price }}.00$</span>
         </div>
       </div>
@@ -60,9 +60,8 @@
 <script setup>
 import { useProductStore } from "../../stores/products";
 import { ref, computed, onMounted } from "vue";
-// import Categories from '../Categories.vue'
 import { categories } from "../../categories.js";
-import CategoryItem from "./CategoryItem.vue";
+import CardItem from "./CardItem.vue";
 
 
 const activeLink = ref("");
@@ -71,29 +70,19 @@ const setActiveLink = (link) => {
   activeLink.value = link;
 };
 const productStore = useProductStore();
-// productStore.getProducts();
-// new filter
 
-// let getIndexStore = computed(() => productStore.resArray);
+
+
 let sortedItems = ref(null);
-// const allProds = ref();
 
 const filterGoods = (e) => {
   sortedItems.value = productStore.products.filter(
     (item) => item.category == categories[e].toLowerCase()
   );
-  // console.log(sortedItems.value);
+  
 };
 
-// onMounted(async () => {
-//     await productStore.getProducts()
-//     allProds.value = getIndexStore.value
 
-// })
-
-// console.log(filterGoods(k));
-
-// Old Filter
 
 const sortType = ref("");
 const sortDirection = ref("frg");
@@ -126,7 +115,7 @@ const sortedProducts = computed(() => {
   return products;
 });
 
-// Pagination
+
 
 const totalPages = computed(() =>
   Math.ceil(sortedProducts.value.length / productPerPage.value)

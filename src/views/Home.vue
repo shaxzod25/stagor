@@ -5,7 +5,8 @@
                 <h1 class="banner_wrap_bts_h1">iPhone 14 Pro Max</h1>
                 <button class="banner_wrap_bts_bt">SHOP NOW</button>
             </div>
-            <div class="banner_wrap_slider">
+            <Slider />
+            <!-- <div class="banner_wrap_slider">
                 <swiper
     :spaceBetween="30"
     :centeredSlides="true"
@@ -26,10 +27,10 @@
     </swiper-slide>
     
   </swiper>
-            </div>
+            </div> -->
         </div>
     </div>
-    <Category />
+    <Categoriya />
     <div class="opisaniya">
       <div class="opisaniya_wrap">
         <div class="opisaniya_wrap_cristian">
@@ -47,14 +48,15 @@
 </template>
 
 <script setup>
-import Category from '../views/page/Category.vue';
+import Slider from "./page/Slider.vue";
+import Categoriya from '../views/page/Categoriya.vue';
 import { useProductStore } from "../stores/products";
 const productStore = useProductStore();
 
 productStore.getProducts()
 </script>
 
-<script>
+<!-- <script>
       // Import Swiper Vue.js components
   import { Swiper, SwiperSlide } from 'swiper/vue';
 
@@ -106,4 +108,4 @@ export default {
   object-fit: cover;
 }
 
-</style>
+</style> -->
