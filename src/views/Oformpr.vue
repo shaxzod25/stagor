@@ -74,15 +74,15 @@
         </div>
       </div>
     </div>
-    <Req />
+    <intercar />
     <div></div>
   </div>
-    <LikeElse v-else />
+    <Like v-else />
   </template>
   
   <script setup>
-  import LikeElse from "../views/Like.vue";
-  import Req from "../views/page/intercar.vue";
+  import Like from "../views/Like.vue";
+  import intercar from "../views/page/intercar.vue";
   import { useProductStore } from "../stores/products";
   import { ref, computed } from "vue";
   
